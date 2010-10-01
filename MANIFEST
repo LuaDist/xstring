@@ -1,0 +1,11 @@
+CHANGES
+LICENSE
+MANIFEST
+README
+Makefile
+testxs.c
+testxs.lua
+xsperf.c
+xsperf.lua
+xstring.c
+xstring.h

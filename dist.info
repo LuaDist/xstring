@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "xstring"
+version = "1.1"
+
+desc = "xtring - External String Module"
+license = "MIT"
+author = "Chip Salzenberg"
+maintainer = "Peter Kapec"
+url = "http://luaforge.net/projects/xstring/"
+
+depends = {
+	"lua ~> 5.1"
+}
