@@ -1,0 +1,31 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Chip Salzenberg"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "xtring - External String Module"
+version = "1.1"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/xstring.so]],
+}
+,
+Data = {
+[[share/xstring/CHANGES]],
+[[share/xstring/LICENSE]],
+[[share/xstring/README]],
+}
+,
+Test = {
+[[share/xstring/test/testxs.lua]],
+[[share/xstring/test/xsperf.lua]],
+}
+,
+}
+
+license = "MIT"
+name = "xstring"
+url = "http://luaforge.net/projects/xstring/"
